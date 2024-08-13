@@ -2,6 +2,8 @@
 main:
   - title: "Posts"
     url: /posts
+  - title: "Photos"
+    url: /photos
   - title: "About"
     url: /about
   # - title: "Sample Posts"
