@@ -21,30 +21,6 @@ entries_layout: grid
 
 ---
 
-## Latest Project
-
-<div class="latest-project-card">
-  <div class="latest-project-image">
-    <img src="/assets/worktraq.png" alt="Worktraq dashboard showing business management modules" loading="lazy">
-  </div>
-  <div class="latest-project-content">
-    <p class="project-eyebrow">Internal Management • MIS Platform</p>
-    <h3>Worktraq</h3>
-    <p>
-      Worktraq is an internal business management platform designed to centralize daily operations, improve visibility, and help teams make faster decisions from one connected workspace.
-    </p>
-    <ul class="project-features">
-      <li>Built a unified MIS dashboard for business operations and team activity</li>
-      <li>Created modules for company, contact, CRM, document, job, and task management</li>
-      <li>Supported sales workflows including quotes, sales orders, invoices, receipts, and reporting</li>
-      <li>Integrated inventory, products, locations, purchasing, shipping, and working hours tracking</li>
-      <li>Designed the interface to support multiple themes and role-based operational workflows</li>
-    </ul>
-  </div>
-</div>
-
----
-
 ## Featured Work
 
 Here are some of my recent projects and technical contributions:
