@@ -25,57 +25,115 @@ entries_layout: grid
 
 Here are some of my recent projects and technical contributions:
 
-<div class="feature-grid">
+<div class="project-grid">
 
-<div class="feature-item feature-item--highlight">
-  <h3>Worktraq</h3>
-  <p>All-in-one internal management platform for business operations, bringing CRM, jobs, tasks, sales, inventory, purchasing, shipping, and workforce tracking into a unified MIS.</p>
-  <span class="feature-tags">Angular • TypeScript • MIS • Business Operations</span>
+<a class="project-card" href="/node/typescript/seo/puppeteer/fastify/nginx/docker/self-hosted-prerender-service-for-spa-seo/">
+    <div class="project-card__image">
+    <div class="project-card__placeholder" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);">
+        <span class="project-card__icon">⚡</span>
+    </div>
+    </div>
+    <div class="project-card__body">
+    <h3>Self-hosted Prerender Service</h3>
+    <p>SEO-focused prerender service for JavaScript-heavy SPAs using Fastify, Puppeteer, Nginx bot routing, disk caching, and PostgreSQL analytics.</p>
+    <span class="project-card__tags">TypeScript • Fastify • Puppeteer • Nginx</span>
+    </div>
+</a>
+
+<a class="project-card" href="/tailwind/unlock-tailwind-components/">
+    <div class="project-card__image">
+    <div class="project-card__placeholder" style="background: linear-gradient(135deg, #38bdf8 0%, #0ea5e9 100%);">
+        <span class="project-card__icon">🎨</span>
+    </div>
+    </div>
+    <div class="project-card__body">
+    <h3>TW Decoded</h3>
+    <p>Exploring and recreating Tailwind UI components. A collection of responsive, production-ready component patterns built with Tailwind CSS.</p>
+    <span class="project-card__tags">Tailwind CSS • React • Vue</span>
+    </div>
+</a>
+
+<a class="project-card" href="/angular/aws/s3/deploy-angular-to-aws-s3-with-nx-executor/">
+    <div class="project-card__image">
+    <div class="project-card__placeholder" style="background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);">
+        <span class="project-card__icon">🚀</span>
+    </div>
+    </div>
+    <div class="project-card__body">
+    <h3>Nx AWS Deploy</h3>
+    <p>Custom Nx executor for streamlined deployment to AWS S3. Automate your Angular/Node deployments with GitHub Actions integration.</p>
+    <span class="project-card__tags">Nx • Angular • AWS S3 • GitHub Actions</span>
+    </div>
+</a>
+
+<a class="project-card" href="/aws/generate-pdf-with-serverless-api/">
+    <div class="project-card__image">
+    <div class="project-card__placeholder" style="background: linear-gradient(135deg, #ef4444 0%, #b91c1c 100%);">
+        <span class="project-card__icon">📄</span>
+    </div>
+    </div>
+    <div class="project-card__body">
+    <h3>PDF Generation with Serverless</h3>
+    <p>Building serverless APIs for dynamic PDF generation using Puppeteer on AWS Lambda. Scalable document processing in the cloud.</p>
+    <span class="project-card__tags">Node.js • AWS Lambda • Serverless</span>
+    </div>
+</a>
+
+<a class="project-card" href="/angular/build-and-run-angular-on-nginx-using-docker/">
+    <div class="project-card__image">
+    <div class="project-card__placeholder" style="background: linear-gradient(135deg, #0f766e 0%, #115e59 100%);">
+        <span class="project-card__icon">🐳</span>
+    </div>
+    </div>
+    <div class="project-card__body">
+    <h3>Angular + Docker + Nginx</h3>
+    <p>Production-ready Docker configurations for Angular applications with optimized Nginx serving and multi-stage builds.</p>
+    <span class="project-card__tags">Angular • Docker • Nginx</span>
+    </div>
+</a>
+
+<a class="project-card" href="/angular/aws/github/s3/monorepo/build-and-deploy-angular-to-aws-s3-with-github-action/">
+    <div class="project-card__image">
+    <div class="project-card__placeholder" style="background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%);">
+        <span class="project-card__icon">⚙️</span>
+    </div>
+    </div>
+    <div class="project-card__body">
+    <h3>Angular Deployment Automation</h3>
+    <p>End-to-end CI/CD pipelines for Angular apps on AWS S3, including executor configuration and GitHub Actions workflows.</p>
+    <span class="project-card__tags">Angular • AWS • CI/CD • DevOps</span>
+    </div>
+</a>
+
+<a class="project-card" href="/angular/primeng/editable/table/datagrid/grid/create-editable-table-with-primeng/">
+    <div class="project-card__image">
+    <div class="project-card__placeholder" style="background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);">
+        <span class="project-card__icon">📊</span>
+    </div>
+    </div>
+    <div class="project-card__body">
+    <h3>Primeng Data Tables</h3>
+    <p>Creating editable data tables with Primeng. Interactive data management components for enterprise applications.</p>
+    <span class="project-card__tags">Angular • Primeng • TypeScript</span>
+    </div>
+</a>
+
+<a class="project-card" href="/node/typescript/seo/puppeteer/fastify/nginx/docker/self-hosted-prerender-service-for-spa-seo/">
+    <div class="project-card__image">
+    <div class="project-card__placeholder" style="background: linear-gradient(135deg, #0080ff 0%, #0055cc 100%);">
+        <span class="project-card__icon">📦</span>
+    </div>
+    </div>
+    <div class="project-card__body">
+    <h3>Worktraq</h3>
+    <p>All-in-one internal management platform for business operations, bringing CRM, jobs, tasks, sales, inventory, purchasing, shipping, and workforce tracking into a unified MIS.</p>
+    <span class="project-card__tags">Angular • TypeScript • MIS</span>
+    </div>
+</a>
+
 </div>
 
-<a class="feature-item feature-item-link" href="/node/typescript/seo/puppeteer/fastify/nginx/docker/self-hosted-prerender-service-for-spa-seo/">
-  <h3>Self-hosted Prerender Service</h3>
-  <p>SEO-focused prerender service for JavaScript-heavy SPAs using Fastify, Puppeteer, Nginx bot routing, disk caching, sitemap warming, and PostgreSQL analytics.</p>
-  <span class="feature-tags">TypeScript • Fastify • Puppeteer • Nginx • SEO</span>
-</a>
 
-<a class="feature-item feature-item-link" href="/tailwind/unlock-tailwind-components/">
-  <h3>TW Decoded</h3>
-  <p>Exploring and recreating Tailwind UI components. A collection of responsive, production-ready component patterns built with Tailwind CSS.</p>
-  <span class="feature-tags">Tailwind CSS • React • Vue</span>
-</a>
-
-<a class="feature-item feature-item-link" href="/angular/aws/s3/deploy-angular-to-aws-s3-with-nx-executor/">
-  <h3>Nx AWS Deploy</h3>
-  <p>Custom Nx executor for streamlined deployment to AWS S3. Automate your Angular/Node deployments with GitHub Actions integration.</p>
-  <span class="feature-tags">Nx • Angular • AWS S3 • GitHub Actions</span>
-</a>
-
-<a class="feature-item feature-item-link" href="/aws/generate-pdf-with-serverless-api/">
-  <h3>PDF Generation with Serverless</h3>
-  <p>Building serverless APIs for dynamic PDF generation. Scalable document processing in the cloud.</p>
-  <span class="feature-tags">Node.js • AWS Lambda • Serverless</span>
-</a>
-
-<a class="feature-item feature-item-link" href="/angular/build-and-run-angular-on-nginx-using-docker/">
-  <h3>Angular + Docker + Nginx</h3>
-  <p>Production-ready Docker configurations for Angular applications with optimized Nginx serving and multi-stage builds.</p>
-  <span class="feature-tags">Angular • Docker • Nginx</span>
-</a>
-
-<a class="feature-item feature-item-link" href="/angular/aws/github/s3/monorepo/build-and-deploy-angular-to-aws-s3-with-github-action/">
-  <h3>Angular Deployment Automation</h3>
-  <p>End-to-end CI/CD pipelines for Angular apps on AWS S3, including executor configuration and GitHub Actions workflows.</p>
-  <span class="feature-tags">Angular • AWS • CI/CD • DevOps</span>
-</a>
-
-<a class="feature-item feature-item-link" href="/angular/primeng/editable/table/datagrid/grid/create-editable-table-with-primeng/">
-  <h3>Primeng Data Tables</h3>
-  <p>Creating editable data tables with Primeng. Interactive data management components for enterprise applications.</p>
-  <span class="feature-tags">Angular • Primeng • TypeScript</span>
-</a>
-
-</div>
 
 ---
 
@@ -185,164 +243,89 @@ I'm currently open to freelance projects and full-time opportunities. Whether yo
   color: white !important;
 }
 
-.latest-project-card {
+/* Featured Work - 2 col card grid */
+.project-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
-  gap: 2rem;
-  align-items: center;
-  margin: 2rem 0;
-  padding: 1.5rem;
-  border: 1px solid #e0e0e0;
-  border-radius: 12px;
-  background: #ffffff;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
-}
-
-.latest-project-image img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 10px;
-  border: 1px solid #e8e8e8;
-}
-
-.latest-project-content h3 {
-  margin-top: 0.25rem;
-  margin-bottom: 1rem;
-  font-size: 1.75rem;
-}
-
-.latest-project-content h3 a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.latest-project-content h3 a:hover {
-  color: #0080ff;
-}
-
-.project-eyebrow {
-  margin: 0;
-  font-size: 0.85rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #0080ff;
-}
-
-.project-features {
-  margin: 1rem 0;
-  padding-left: 1.25rem;
-}
-
-.project-features li {
-  margin-bottom: 0.5rem;
-}
-
-.project-cta {
-  margin-top: 1.25rem;
-}
-
-.feature-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
   margin: 2rem 0;
 }
 
-.feature-item {
-  padding: 1.5rem;
+.project-card {
+  display: flex;
+  flex-direction: column;
   border: 1px solid #e0e0e0;
-  border-radius: 8px;
+  border-radius: 12px;
   background: var(--page-background);
-}
-
-.feature-item--highlight {
-  border-color: #0080ff;
-  box-shadow: 0 6px 18px rgba(0, 128, 255, 0.12);
-}
-
-.feature-item-link {
-  display: block;
-  color: inherit;
+  overflow: hidden;
   text-decoration: none;
+  color: inherit;
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
-.feature-item-link:hover {
-  transform: translateY(-3px);
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
   border-color: #0080ff;
-  box-shadow: 0 8px 22px rgba(0, 128, 255, 0.14);
 }
 
-.feature-item-link:hover h3 {
+.project-card__image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.project-card__placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-card__icon {
+  font-size: 2.5rem;
+  filter: grayscale(1) brightness(2);
+  opacity: 0.7;
+}
+
+.project-card__body {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.project-card__body h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+  color: inherit;
+}
+
+.project-card__body p {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0 0 0.75rem 0;
+  flex: 1;
+  line-height: 1.5;
+}
+
+.project-card__tags {
+  display: inline-block;
+  font-size: 0.78rem;
+  color: #888;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.project-card:hover h3 {
   color: #0080ff;
 }
 
-.feature-item h3 {
-  margin-top: 0;
-}
-
-.feature-item h3 a,
-.feature-item h3 a:hover {
-  color: inherit;
-  text-decoration: none;
-}
-
-.feature-tags {
-  display: inline-block;
-  margin-top: 0.75rem;
-  font-size: 0.85rem;
-  color: #666;
-}
-
-.skills-grid {
-  margin: 2rem 0;
-}
-
-.skills-grid table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.skills-grid th,
-.skills-grid td {
-  padding: 1rem;
-  text-align: left;
-  border: 1px solid #e0e0e0;
-}
-
-.skills-grid th {
-  background: #f5f5f5;
-  font-weight: 600;
-}
-
-.contact-section {
-  text-align: center;
-  padding: 2rem;
-  background: #f9f9f9;
-  border-radius: 8px;
-  margin: 2rem 0;
-}
-
-.contact-section p {
-  margin: 0.5rem 0;
-}
-
-@media (max-width: 600px) {
-  .hero-title {
-    font-size: 2rem;
-  }
-  
-  .latest-project-card,
-  .feature-grid {
+@media (max-width: 768px) {
+  .project-grid {
     grid-template-columns: 1fr;
   }
 }
 
-@media (max-width: 900px) {
-  .latest-project-card {
-    grid-template-columns: 1fr;
-  }
-}
 </style>
