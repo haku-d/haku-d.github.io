@@ -132,14 +132,6 @@ Here are some of my recent projects and technical contributions:
 </div>
 
 
----
-
-</h3>
-    <p>Creating editable data tables with Primeng. Interactive data management components for enterprise applications.</p>
-    <span class="project-card__tags">Angular • Primeng • TypeScript</span>
-    </div>
-</a>
-
 
 
 ---
