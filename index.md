@@ -29,7 +29,7 @@ Here are some of my recent projects and technical contributions:
 
 <a class="project-card" href="/nextjs/typescript/threejs/react/2d/3d/ppk-packaging-dieline-editor/">
     <div class="project-card__image">
-    <img src="https://raw.githubusercontent.com/haku-d/ppk/main/demo.gif" alt="ppk demo" loading="lazy" style="width:100%;height:160px;object-fit:cover;border-radius:4px 4px 0 0;">
+    <img src="https://raw.githubusercontent.com/haku-d/ppk/main/demo.gif" alt="ppk demo" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
     </div>
     <div class="project-card__body">
     <h3>ppk — Packaging Dieline Editor</h3>
@@ -279,6 +279,7 @@ I'm currently open to freelance projects and full-time opportunities. Whether yo
 .project-card__image {
   width: 100%;
   aspect-ratio: 16 / 9;
+  position: relative;
   overflow: hidden;
 }
 
