@@ -57,43 +57,43 @@ Here are some of my recent projects and technical contributions:
   <span class="feature-tags">Angular • TypeScript • MIS • Business Operations</span>
 </div>
 
-<a class="feature-item feature-item-link" href="{% post_url 2026-07-14-self-hosted-prerender-service-for-spa-seo %}">
+<a class="feature-item feature-item-link" href="/node/self-hosted-prerender-service-for-spa-seo/">
   <h3>Self-hosted Prerender Service</h3>
   <p>SEO-focused prerender service for JavaScript-heavy SPAs using Fastify, Puppeteer, Nginx bot routing, disk caching, sitemap warming, and PostgreSQL analytics.</p>
   <span class="feature-tags">TypeScript • Fastify • Puppeteer • Nginx • SEO</span>
 </a>
 
-<a class="feature-item feature-item-link" href="{% post_url 2024-08-12-unlock-tailwind-components %}">
+<a class="feature-item feature-item-link" href="/tailwind/unlock-tailwind-ui-components/">
   <h3>TW Decoded</h3>
   <p>Exploring and recreating Tailwind UI components. A collection of responsive, production-ready component patterns built with Tailwind CSS.</p>
   <span class="feature-tags">Tailwind CSS • React • Vue</span>
 </a>
 
-<a class="feature-item feature-item-link" href="{% post_url 2024-09-26-deploy-angular-to-aws-s3-with-nx-executor %}">
+<a class="feature-item feature-item-link" href="/angular/deploy-angular-application-to-aws-s3-with-nx-executors/">
   <h3>Nx AWS Deploy</h3>
   <p>Custom Nx executor for streamlined deployment to AWS S3. Automate your Angular/Node deployments with GitHub Actions integration.</p>
   <span class="feature-tags">Nx • Angular • AWS S3 • GitHub Actions</span>
 </a>
 
-<a class="feature-item feature-item-link" href="{% post_url 2024-08-11-generate-pdf-with-serverless-api %}">
+<a class="feature-item feature-item-link" href="/aws/generate-pdf-with-serverless-api-aws-lambda-function-using-puppeteer/">
   <h3>PDF Generation with Serverless</h3>
   <p>Building serverless APIs for dynamic PDF generation. Scalable document processing in the cloud.</p>
   <span class="feature-tags">Node.js • AWS Lambda • Serverless</span>
 </a>
 
-<a class="feature-item feature-item-link" href="{% post_url 2024-08-13-build-and-run-angular-on-nginx-using-docker %}">
+<a class="feature-item feature-item-link" href="/angular/deploy-angular-application-using-docker/">
   <h3>Angular + Docker + Nginx</h3>
   <p>Production-ready Docker configurations for Angular applications with optimized Nginx serving and multi-stage builds.</p>
   <span class="feature-tags">Angular • Docker • Nginx</span>
 </a>
 
-<a class="feature-item feature-item-link" href="{% post_url 2024-10-12-build-and-deploy-angular-to-aws-s3-with-github-action %}">
+<a class="feature-item feature-item-link" href="/angular/deploy-angular-monorepo-to-aws-s3-by-github-workflow/">
   <h3>Angular Deployment Automation</h3>
   <p>End-to-end CI/CD pipelines for Angular apps on AWS S3, including executor configuration and GitHub Actions workflows.</p>
   <span class="feature-tags">Angular • AWS • CI/CD • DevOps</span>
 </a>
 
-<a class="feature-item feature-item-link" href="{% post_url 2024-10-29-create-editable-table-with-primeng %}">
+<a class="feature-item feature-item-link" href="/angular/create-data-grid-in-angular-with-primeng/">
   <h3>Primeng Data Tables</h3>
   <p>Creating editable data tables with Primeng. Interactive data management components for enterprise applications.</p>
   <span class="feature-tags">Angular • Primeng • TypeScript</span>
