@@ -118,20 +118,19 @@ Here are some of my recent projects and technical contributions:
     </div>
 </a>
 
-<a class="project-card" href="/node/typescript/seo/puppeteer/fastify/nginx/docker/self-hosted-prerender-service-for-spa-seo/">
+<a class="project-card" href="/nextjs/typescript/threejs/react/2d/3d/ppk-packaging-dieline-editor/">
     <div class="project-card__image">
-    <div class="project-card__placeholder" style="background: linear-gradient(135deg, #0080ff 0%, #0055cc 100%);">
+    <div class="project-card__placeholder" style="background: linear-gradient(135deg, #a78bfa 0%, #7c3aed 100%);">
         <span class="project-card__icon">📦</span>
     </div>
     </div>
     <div class="project-card__body">
-    <h3>Worktraq</h3>
-    <p>All-in-one internal management platform for business operations, bringing CRM, jobs, tasks, sales, inventory, purchasing, shipping, and workforce tracking into a unified MIS.</p>
-    <span class="project-card__tags">Angular • TypeScript • MIS</span>
+    <h3>ppk — Packaging Dieline Editor</h3>
+    <p>Web-based packaging dieline editor with live 2D editing and foldable 3D preview. Built with Next.js, Three.js, and a shared canvas renderer pipeline.</p>
+    <span class="project-card__tags">Next.js • Three.js • TypeScript</span>
     </div>
 </a>
 
-</div>
 
 
 
