@@ -1,0 +1,77 @@
+{% if page.collection == 'posts' or page.layout == 'single' %}
+  {% assign canonical_url = page.url | absolute_url | prepend: site.url %}
+{% else %}
+  {% assign canonical_url = site.url %}
+{% endif %}
+
+<!-- SEO: Canonical -->
+<link rel="canonical" href="{{ canonical_url }}">
+
+<!-- SEO: Open Graph -->
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:type" content="{{ page.og_type | default: 'article' }}">
+<meta property="og:title" content="{{ page.title | escape }}">
+<meta property="og:url" content="{{ canonical_url }}">
+
+{% if page.description %}
+  <meta property="og:description" content="{{ page.description | escape }}">
+{% elsif page.excerpt %}
+  <meta property="og:description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
+{% elsif page.content %}
+  <meta property="og:description" content="{{ page.content | strip_html | truncate: 160 }}">
+{% endif %}
+
+{% if page.date %}
+  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+{% endif %}
+{% if page.last_modified_at %}
+  <meta property="article:modified_time" content="{{ page.last_modified_at | date_to_xmlschema }}">
+{% endif %}
+
+<!-- SEO: Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title | escape }}">
+{% if page.description %}
+  <meta name="twitter:description" content="{{ page.description | escape }}">
+{% elsif page.excerpt %}
+  <meta name="twitter:description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
+{% endif %}
+
+{% if page.header.image %}
+  <meta name="twitter:image" content="{{ page.header.image | absolute_url | prepend: site.url }}">
+{% elsif site.twitter.og_image %}
+  <meta name="twitter:image" content="{{ site.twitter.og_image | absolute_url | prepend: site.url }}">
+{% endif %}
+
+{% if site.twitter.username %}
+  <meta name="twitter:site" content="@{{ site.twitter.username | replace: '@', '' }}">
+{% endif %}
+
+<!-- SEO: JSON-LD Article Structured Data -->
+{% if page.collection == 'posts' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ page.title | jsonify }},
+  "url": {{ canonical_url | jsonify }},
+  {% if page.date %}"datePublished": {{ page.date | date_to_xmlschema | jsonify }},{% endif %}
+  {% if page.last_modified_at %}"dateModified": {{ page.last_modified_at | date_to_xmlschema | jsonify }},{% endif %}
+  {% if page.categories %}"articleSection": {{ page.categories | split: ' ' | first | jsonify }},{% endif %}
+  {% if page.excerpt %}"description": {{ page.excerpt | jsonify }},{% endif %}
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.author.name | default: 'Thanh Dang' }}",
+    "url": "{{ site.url }}/about"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/assets/icons/logo.png"
+    }
+  }
+}
+</script>
+{% endif %}
