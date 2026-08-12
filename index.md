@@ -27,8 +27,6 @@ Here are some of my recent projects and technical contributions:
 
 <div class="project-grid">
 
-<a class="project-card" href="/node/typescript/seo/puppeteer/fastify/nginx/docker/self-hosted-prerender-service-for-spa-seo/">
-
 <a class="project-card" href="/nextjs/typescript/threejs/react/2d/3d/ppk-packaging-dieline-editor/">
     <div class="project-card__image">
     <div class="project-card__placeholder" style="background: linear-gradient(135deg, #a78bfa 0%, #7c3aed 100%);">
@@ -42,8 +40,7 @@ Here are some of my recent projects and technical contributions:
     </div>
 </a>
 
-
-
+<a class="project-card" href="/node/typescript/seo/puppeteer/fastify/nginx/docker/self-hosted-prerender-service-for-spa-seo/">
     <div class="project-card__image">
     <div class="project-card__placeholder" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);">
         <span class="project-card__icon">⚡</span>
@@ -97,7 +94,7 @@ Here are some of my recent projects and technical contributions:
 
 <a class="project-card" href="/angular/build-and-run-angular-on-nginx-using-docker/">
     <div class="project-card__image">
-    <div class="project-card__placeholder" style="background: linear-gradient(135deg, #0f766e 0%, #115e59 100%);">
+    <div class="project-card__placeholder" style="background: linear-gradient(135deg, #2496ed 0%, #1a75bb 100%);">
         <span class="project-card__icon">🐳</span>
     </div>
     </div>
@@ -110,7 +107,7 @@ Here are some of my recent projects and technical contributions:
 
 <a class="project-card" href="/angular/aws/github/s3/monorepo/build-and-deploy-angular-to-aws-s3-with-github-action/">
     <div class="project-card__image">
-    <div class="project-card__placeholder" style="background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%);">
+    <div class="project-card__placeholder" style="background: linear-gradient(135deg, #374151 0%, #1f2937 100%);">
         <span class="project-card__icon">⚙️</span>
     </div>
     </div>
@@ -129,6 +126,17 @@ Here are some of my recent projects and technical contributions:
     </div>
     <div class="project-card__body">
     <h3>Primeng Data Tables</h3>
+    <p>Creating editable data tables with Primeng. Interactive data management components for enterprise applications.</p>
+    <span class="project-card__tags">Angular • Primeng • TypeScript</span>
+    </div>
+</a>
+
+</div>
+
+
+---
+
+</h3>
     <p>Creating editable data tables with Primeng. Interactive data management components for enterprise applications.</p>
     <span class="project-card__tags">Angular • Primeng • TypeScript</span>
     </div>
