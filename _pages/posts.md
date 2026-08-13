@@ -1,6 +1,7 @@
 ---
-layout: archive
+layout: posts
 title: Posts
-author_profile: true
+permalink: /posts/
+author_profile: false
 entries_layout: list
 ---
