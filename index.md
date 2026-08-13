@@ -6,12 +6,16 @@ entries_layout: grid
 ---
 
 <div class="hero-section">
-  <h1 class="hero-title">Hi, I'm Thanh (Haku)</h1>
-  <p class="hero-subtitle">Full-Stack Developer specializing in Angular, Node.js, and Cloud Architecture</p>
+  <h1 class="hero-title">Hi, I'm Thanh 👋</h1>
+  <p class="hero-subtitle">Full-Stack Developer specializing in <strong>Angular, Node.js, and Cloud Architecture</strong>. I enjoy building scalable web applications and designing reliable systems that solve real-world business problems.</p>
   <p class="hero-description">
-    I love building scalable web applications and sharing what I learn along the way. 
-    With experience in modern JavaScript frameworks, cloud platforms (AWS), and DevOps practices, 
-    I help businesses turn ideas into production-ready solutions.
+    Currently, my team and I are building <a href="https://vicdigitalworks.com/products/worktraq" target="_blank" rel="noopener">Worktraq</a>, one of the core products at <strong>VIC Digital Works</strong>. Worktraq is a comprehensive <strong>Management Information System (MIS)</strong> designed specifically for the printing industry, with integrated <strong>Web-to-Print solutions for both B2B and B2C workflows</strong>.
+  </p>
+  <p class="hero-description">
+    I'm involved in developing and evolving the platform across the stack, from frontend and backend development to system architecture and cloud infrastructure.
+  </p>
+  <p class="hero-description">
+    If you're interested in what we're building and the technology behind it, take a look at the <a href="https://docs.vicdigitalworks.com/" target="_blank" rel="noopener">Worktraq documentation</a>.
   </p>
   <div class="hero-cta">
     <a href="/about/" class="btn btn--primary">Learn More About Me</a>
