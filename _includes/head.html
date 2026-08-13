@@ -27,5 +27,8 @@
   {% endfor %}
 {% endif %}
 
-<!-- Theme overrides — must be after main.css to cascade properly -->
-{% include head/custom.html %}
+<!-- Theme overrides — white background, must be after main.css -->
+<style>
+  html { background-color: #ffffff !important; }
+  body { background-color: #ffffff !important; }
+</style>
