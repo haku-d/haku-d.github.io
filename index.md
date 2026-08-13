@@ -15,7 +15,7 @@ entries_layout: grid
     I'm involved in developing and evolving the platform across the stack, from frontend and backend development to system architecture and cloud infrastructure.
   </p>
   <p class="hero-description">
-    If you're interested in what we're building and the technology behind it, take a look at the <a href="https://docs.vicdigitalworks.com/" target="_blank" rel="noopener">Worktraq documentation</a>.
+    If you're interested in what we're building and the technology behind it, take a look at the <a href="https://docs.vicdigitalworks.com/" target="_blank" rel="noopener">Worktraq documentation</a> or visit one of our public store-fronts backed by Worktraq at <a href="https://gotoprint.ca" target="_blank" rel="noopener">gotoprint.ca</a>.
   </p>
   <div class="hero-cta">
     <a href="/about/" class="btn btn--primary">Learn More About Me</a>
