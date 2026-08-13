@@ -195,7 +195,7 @@ entries_layout: grid
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #2563eb;
+  color: #a78bfa;
   margin-bottom: 1rem;
   opacity: 1;
   animation: fadeUp 0.5s ease 0.1s forwards;
@@ -206,7 +206,7 @@ entries_layout: grid
   font-weight: 700;
   letter-spacing: -0.03em;
   line-height: 1.1;
-  color: #111827;
+  color: #101010;
   margin-bottom: 0.25rem;
   opacity: 0;
   transform: translateY(16px);
@@ -221,7 +221,7 @@ entries_layout: grid
 
 .hero-subtitle {
   font-size: clamp(1rem, 2vw, 1.2rem);
-  color: #374151;
+  color: #404040;
   line-height: 1.6;
   margin: 1.25rem 0 1.5rem;
   opacity: 0;
@@ -231,7 +231,7 @@ entries_layout: grid
 
 .hero-description {
   font-size: 0.95rem;
-  color: #6b7280;
+  color: #6b6b6b;
   line-height: 1.75;
   margin-bottom: 1.25rem;
   opacity: 0;
@@ -240,14 +240,14 @@ entries_layout: grid
 }
 
 .hero-description a {
-  color: #2563eb;
+  color: #a78bfa;
   text-decoration: underline;
   text-underline-offset: 3px;
-  text-decoration-color: #bfdbfe;
+  text-decoration-color: #ddd6fe;
   transition: text-decoration-color 0.2s;
 }
 .hero-description a:hover {
-  text-decoration-color: #2563eb;
+  text-decoration-color: #a78bfa;
 }
 
 .hero-cta {
@@ -270,25 +270,25 @@ entries_layout: grid
 }
 
 .btn--primary {
-  background: #111827;
+  background: #101010;
   color: white !important;
-  border: 1.5px solid #111827;
+  border: 1.5px solid #101010;
 }
 .btn--primary:hover {
-  background: #1f2937;
-  border-color: #1f2937;
+  background: #2a2a2a;
+  border-color: #2a2a2a;
   transform: translateY(-1px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .btn--outline {
-  border: 1.5px solid #d1d5db;
-  color: #374151 !important;
+  border: 1.5px solid #d4d4d4;
+  color: #404040 !important;
   background: transparent;
 }
 .btn--outline:hover {
-  border-color: #9ca3af;
-  background: #f9fafb;
+  border-color: #a78bfa;
+  color: #a78bfa !important;
   transform: translateY(-1px);
 }
 
@@ -318,20 +318,20 @@ entries_layout: grid
   font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: -0.02em;
-  color: #111827;
+  color: #101010;
   margin: 0;
 }
 
 .section-header .section-count {
   font-size: 0.8rem;
   font-weight: 500;
-  color: #9ca3af;
+  color: #a0a0a0;
   letter-spacing: 0.03em;
 }
 
 .section-intro {
   font-size: 0.9rem;
-  color: #6b7280;
+  color: #6b6b6b;
   margin-bottom: 2rem;
   line-height: 1.6;
 }
@@ -347,7 +347,7 @@ entries_layout: grid
 .project-card {
   display: flex;
   flex-direction: column;
-  border: 1px solid #e5e7eb;
+  border: 1px solid #e8e8e8;
   border-radius: 10px;
   background: white;
   overflow: hidden;
@@ -358,15 +358,15 @@ entries_layout: grid
 
 .project-card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.07);
-  border-color: #d1d5db;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  border-color: #d4c8f9;
 }
 
 .project-card__image {
   width: 100%;
   aspect-ratio: 16 / 9;
   overflow: hidden;
-  background: #f3f4f6;
+  background: #f5f5f5;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -382,7 +382,7 @@ entries_layout: grid
 
 .project-card__icon {
   font-size: 2rem;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
 .project-card__body {
@@ -396,14 +396,14 @@ entries_layout: grid
   margin: 0 0 0.4rem 0;
   font-size: 0.975rem;
   font-weight: 600;
-  color: #111827;
+  color: #101010;
   letter-spacing: -0.01em;
   line-height: 1.3;
 }
 
 .project-card__body p {
   font-size: 0.85rem;
-  color: #6b7280;
+  color: #6b6b6b;
   margin: 0 0 0.75rem 0;
   flex: 1;
   line-height: 1.55;
@@ -414,17 +414,17 @@ entries_layout: grid
   flex-wrap: wrap;
   gap: 0.35rem;
   font-size: 0.75rem;
-  color: #9ca3af;
+  color: #a0a0a0;
   letter-spacing: 0.01em;
 }
 
 .tag {
-  background: #f3f4f6;
+  background: #f5f3ff;
   padding: 0.15rem 0.5rem;
   border-radius: 4px;
   font-size: 0.72rem;
-  color: #6b7280;
-  border: 1px solid #e5e7eb;
+  color: #7c3aed;
+  border: 1px solid #ede9fe;
   letter-spacing: 0.01em;
 }
 
@@ -444,38 +444,38 @@ entries_layout: grid
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #9ca3af;
+  color: #a0a0a0;
   padding: 0 0 0.75rem 0;
   text-align: left;
-  border-bottom: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e8e8e8;
 }
 
 .skills-grid td {
-  color: #374151;
+  color: #404040;
   padding: 0.6rem 0;
   vertical-align: top;
   line-height: 1.5;
 }
 
 .skills-grid tr + tr td {
-  border-top: 1px solid #f3f4f6;
+  border-top: 1px solid #f2f2f2;
 }
 
 /* ── Contact Section ─────────────────────────── */
 .contact-section {
-  border-top: 1px solid #e5e7eb;
+  border-top: 1px solid #e8e8e8;
   padding: 2.5rem 0;
   margin-top: 2rem;
 }
 
 .contact-section p {
   font-size: 0.9rem;
-  color: #6b7280;
+  color: #6b6b6b;
   margin: 0 0 0.5rem;
 }
 
 .contact-section a {
-  color: #2563eb;
+  color: #a78bfa;
   text-decoration: none;
   font-weight: 500;
 }
