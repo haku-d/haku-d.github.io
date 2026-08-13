@@ -9,7 +9,7 @@ entries_layout: grid
   <p class="hero-eyebrow">Full-Stack Developer</p>
   <h1 class="hero-title">Hi, I'm Thanh <span>👋</span></h1>
   <p class="hero-subtitle">I build scalable web applications and design reliable systems that solve real-world business problems. Currently working with <strong>Angular, Node.js,</strong> and <strong>Cloud Architecture</strong>.</p>
-  <p class="hero-description">
+  <div class="hero-description">
     My team and I are building <a href="https://vicdigitalworks.com/products/worktraq" target="_blank" rel="noopener">Worktraq</a> at <strong>VIC Digital Works</strong> — a comprehensive Management Information System (MIS) for the printing industry, with integrated Web-to-Print solutions for B2B and B2C workflows.
   </p>
   <p class="hero-description">
@@ -199,8 +199,7 @@ I'm currently open to freelance projects and full-time opportunities. Whether yo
   text-transform: uppercase;
   color: #2563eb;
   margin-bottom: 1rem;
-  opacity: 0;
-  transform: translateY(12px);
+  opacity: 1;
   animation: fadeUp 0.5s ease 0.1s forwards;
 }
 
