@@ -11,10 +11,10 @@ entries_layout: grid
   <p class="hero-subtitle">I build scalable web applications and design reliable systems that solve real-world business problems. Currently working with <strong>Angular, Node.js,</strong> and <strong>Cloud Architecture</strong>.</p>
   <div class="hero-description">
     My team and I are building <a href="https://vicdigitalworks.com/products/worktraq" target="_blank" rel="noopener">Worktraq</a> at <strong>VIC Digital Works</strong> — a comprehensive Management Information System (MIS) for the printing industry, with integrated Web-to-Print solutions for B2B and B2C workflows.
-  </p>
-  <p class="hero-description">
+  </div>
+  <div class="hero-description">
     Interested in the tech behind it? Check the <a href="https://docs.vicdigitalworks.com/" target="_blank" rel="noopener">Worktraq docs</a> or see it live at <a href="https://gotoprint.ca" target="_blank" rel="noopener">gotoprint.ca</a>.
-  </p>
+  </div>
   <div class="hero-cta">
     <a href="/about/" class="btn btn--primary">About Me</a>
     <a href="mailto:dcongthanh@gmail.com" class="btn btn--outline">Get In Touch</a>
@@ -26,8 +26,6 @@ entries_layout: grid
 ## Featured Work
 
 <p class="section-intro">A selection of projects I've built and problems I've solved. Each one is a real case study with actual code.</p>
-
-<div class="project-grid">
 
 <div class="project-grid">
 
