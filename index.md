@@ -27,12 +27,12 @@ Here are some of my recent projects and technical contributions:
 
 <div class="project-grid">
 
-<a class="project-card" href="/nextjs/typescript/threejs/react/2d/3d/ppk-packaging-dieline-editor/">
+<a class="project-card" href="/nextjs/typescript/threejs/react/2d/3d/PDE-packaging-dieline-editor/">
     <div class="project-card__image">
-    <img src="https://raw.githubusercontent.com/haku-d/ppk/main/demo.gif" alt="ppk demo" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
+    <img src="https://raw.githubusercontent.com/haku-d/pde/main/demo.gif" alt="PDE demo" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
     </div>
     <div class="project-card__body">
-    <h3>ppk — Packaging Dieline Editor</h3>
+    <h3>PDE — Packaging Dieline Editor</h3>
     <p>Web-based packaging dieline editor with live 2D editing and foldable 3D preview. Built with Next.js, Three.js, and a shared canvas renderer pipeline.</p>
     <span class="project-card__tags">Next.js • Three.js • TypeScript</span>
     </div>
