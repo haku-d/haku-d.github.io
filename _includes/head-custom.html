@@ -4,6 +4,19 @@
   {% assign canonical_url = site.url %}
 {% endif %}
 
+<!-- Theme: force white background site-wide -->
+<style>
+  body {
+    background-color: #ffffff !important;
+  }
+  .page__content,
+  .page__inner,
+  .page,
+  main {
+    background-color: #ffffff !important;
+  }
+</style>
+
 <!-- SEO: Canonical -->
 <link rel="canonical" href="{{ canonical_url }}">
 
