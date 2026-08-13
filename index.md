@@ -23,7 +23,7 @@ entries_layout: grid
 
 ---
 
-## Featured Work
+<h2>Featured Work</h2>
 
 <p class="section-intro">A selection of projects I've built and problems I've solved. Each one is a real case study with actual code.</p>
 
@@ -138,7 +138,7 @@ entries_layout: grid
 
 ---
 
-## Technical Expertise
+<h2>Technical Expertise</h2>
 
 <div class="skills-grid">
 <table>
@@ -172,9 +172,9 @@ entries_layout: grid
 
 ---
 
-## Let's Work Together
+<h2>Let's Work Together</h2>
 
-I'm currently open to freelance projects and full-time opportunities. Whether you need a new web application, want to modernize existing systems, or need help with cloud architecture — I'd love to hear from you.
+<p>I'm currently open to freelance projects and full-time opportunities. Whether you need a new web application, want to modernize existing systems, or need help with cloud architecture — I'd love to hear from you.</p>
 
 <div class="contact-section">
   <p><strong>Email:</strong> <a href="mailto:dcongthanh@gmail.com">dcongthanh@gmail.com</a></p>
